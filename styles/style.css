@@ -208,16 +208,26 @@ i {
   width: 1440px;
   height: 239px;
   background: #0a0826;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .footer-container {
   width: 262px;
   height: 139px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
 }
 .footer .footer-title {
   font-weight: 700;
   font-size: 24px;
   text-align: center;
   color: #ffffff;
+}
+.footer p {
+  text-align: center;
+  color: #ffffff;
+}
+.footer i {
+  color: #ffffff;
+  text-align: center;
 }
